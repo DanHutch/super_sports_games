@@ -1,3 +1,5 @@
+require 'pry'
+
 class Games
   attr_reader :events,
               :year
@@ -37,3 +39,4 @@ class Games
     end.join("\n")
   end
 end
+binding.pry
