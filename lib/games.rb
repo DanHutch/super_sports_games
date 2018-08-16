@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 
 class Games
   attr_reader :events,
@@ -39,4 +39,4 @@ class Games
     end.join("\n")
   end
 end
-binding.pry
+# binding.pry
