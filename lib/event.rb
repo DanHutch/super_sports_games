@@ -43,9 +43,9 @@ class Event
     @ages.each do |value|
       minus_array << (value.to_f - mean).round(2)
     end
-    # binding.pry
 
     return minus_array
+    binding.pry
 
   end
 
